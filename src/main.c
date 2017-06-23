@@ -519,11 +519,11 @@ void RegisterHotkeys(HWND hwnd)
   RegisterHotKey(hwnd, KEY_IGNORE, modkeys, 'Q');
   RegisterHotKey(hwnd, KEY_MOUSE_LOCK, modkeys, 'U');
   RegisterHotKey(hwnd, KEY_TILING_MODE, modkeys, VK_SPACE);
-  RegisterHotKey(hwnd, KEY_MOVE_UP, modkeys | MOD_SHIFT, 'K');
-  RegisterHotKey(hwnd, KEY_MOVE_DOWN, modkeys | MOD_SHIFT, 'J');
+  RegisterHotKey(hwnd, KEY_MOVE_UP, modkeys | MOD_SHIFT, 'E');
+  RegisterHotKey(hwnd, KEY_MOVE_DOWN, modkeys | MOD_SHIFT, 'N');
   RegisterHotKey(hwnd, KEY_DISP_CLASS, modkeys, 'Y');
-  RegisterHotKey(hwnd, KEY_TILE, modkeys, 'O');
-  RegisterHotKey(hwnd, KEY_UNTILE, modkeys, 'P');
+  RegisterHotKey(hwnd, KEY_TILE, modkeys, 'S');
+  RegisterHotKey(hwnd, KEY_UNTILE, modkeys, 'T');
   RegisterHotKey(hwnd, KEY_INC_AREA, modkeys, 'Z');
   RegisterHotKey(hwnd, KEY_DEC_AREA, modkeys, 'X');
   RegisterHotKey(hwnd, KEY_CLOSE_WIN, modkeys, 'C');
