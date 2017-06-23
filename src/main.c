@@ -510,13 +510,13 @@ void RegisterHotkeys(HWND hwnd)
   char key[2];
   int i;
 
-  RegisterHotKey(hwnd, KEY_SELECT_UP, modkeys, 'K');
-  RegisterHotKey(hwnd, KEY_SELECT_DOWN, modkeys, 'J');
+  RegisterHotKey(hwnd, KEY_SELECT_UP, modkeys, 'E');
+  RegisterHotKey(hwnd, KEY_SELECT_DOWN, modkeys, 'N');
   RegisterHotKey(hwnd, KEY_MOVE_MAIN, modkeys, VK_RETURN);
   RegisterHotKey(hwnd, KEY_EXIT, modkeys, VK_ESCAPE);
   RegisterHotKey(hwnd, KEY_MARGIN_LEFT, modkeys, 'H');
-  RegisterHotKey(hwnd, KEY_MARGIN_RIGHT, modkeys, 'L');
-  RegisterHotKey(hwnd, KEY_IGNORE, modkeys, 'I');
+  RegisterHotKey(hwnd, KEY_MARGIN_RIGHT, modkeys, 'I');
+  RegisterHotKey(hwnd, KEY_IGNORE, modkeys, 'Q');
   RegisterHotKey(hwnd, KEY_MOUSE_LOCK, modkeys, 'U');
   RegisterHotKey(hwnd, KEY_TILING_MODE, modkeys, VK_SPACE);
   RegisterHotKey(hwnd, KEY_MOVE_UP, modkeys | MOD_SHIFT, 'K');
